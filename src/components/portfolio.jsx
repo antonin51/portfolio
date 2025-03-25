@@ -17,7 +17,7 @@ export default function Portfolio() {
       <>
          <header>
             <div>
-               <h1>Antonin Doliwa</h1>
+               <h1>Portfolio</h1>
             </div>
             <nav>
                <ul>
