@@ -7,7 +7,7 @@ function Home() {
       <Link to="/about">About</Link>
       <link to="/book">Book</link>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus aut beatae corrupti ad, accusantium consectetur asperiores temporibus debitis soluta doloribus ut dolor eum porro, dolores quis unde culpa impedit facere.</p>
-      <Counter />
+      {/* <Counter /> */}
    </>
   )
 }
