@@ -1,0 +1,26 @@
+.arrow-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 200px; /* Assurez-vous que la flèche est centrée */
+ }
+ 
+ .arrow-svg {
+   animation: bounce 1s infinite; /* Appliquer l'animation de rebond */
+   transform-origin: center;
+   transform: rotate(90deg); /* Faire pivoter la flèche pour qu'elle pointe vers le bas */
+ }
+ 
+ @keyframes bounce {
+   0% {
+     transform: translateY(0) rotate(90deg); /* Rotation de la flèche vers le bas */
+   }
+   50% {
+     transform: translateY(10px) rotate(90deg); /* Déplacement vers le bas */
+   }
+   100% {
+     transform: translateY(0) rotate(90deg); /* Retour à la position initiale */
+   }
+ }
+ 
+ 
