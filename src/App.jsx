@@ -6,6 +6,7 @@ import Book from './pages/book'
 import Erreur from './pages/Erreur'
 import Exercice from './pages/exercice'
 import Home from './pages/home'
+import CounterPage from './pages/counter'
 
 
 
@@ -19,7 +20,7 @@ function App() {
         <Route path="/book" element={<Book />} />
         <Route path='/exercice' element={<Exercice />} />
         <Route path='/portfolio' element={<Portfolio />} />
-        {/* <Route path='/counter' element={<CounterPage />} /> */}
+        <Route path='/counter' element={<CounterPage />} />
         <Route path='*' element={<Erreur />} />
       </Routes>
     </Router>
